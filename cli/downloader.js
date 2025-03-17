@@ -1,4 +1,4 @@
-const zlib = require('zlib');
+const zlib = require('node:zlib');
 const tar = require("tar");
 
 // Реализует функцию загрузки и распаковки пакетов
